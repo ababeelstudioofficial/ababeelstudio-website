@@ -1,64 +1,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ababeel Studio</title>
+  <title>Ababeel Studio – Shopify Apps & SaaS Development Agency</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 40px;
-      background: #f5f7fa;
-      color: #222;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0b1120;
+      color: white;
       line-height: 1.6;
     }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
     }
+
+    h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
     h2 {
+      margin-top: 80px;
+      font-size: 34px;
+    }
+
+    p {
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    .hero {
+      text-align: center;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 32px;
+      background: linear-gradient(90deg, #6366f1, #8b5cf6);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    .section {
+      padding: 80px 0;
+      border-top: 1px solid #1e293b;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
       margin-top: 40px;
     }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+
+    .card {
+      background: #111827;
+      padding: 30px;
+      border-radius: 14px;
     }
+
     footer {
-      margin-top: 50px;
+      text-align: center;
+      padding: 50px;
+      border-top: 1px solid #1e293b;
       font-size: 14px;
-      color: #666;
+      color: #64748b;
     }
   </style>
 </head>
+
 <body>
-  <div class="container">
+
+  <div class="container hero">
     <h1>Ababeel Studio</h1>
-    <p>We build smart Shopify apps for eCommerce growth.</p>
-
-    <h2>About Us</h2>
     <p>
-      Ababeel Studio is a SaaS product studio focused on building automation
-      tools for Shopify merchants.
+      A modern IT & Creative Technology agency building Shopify apps,
+      SaaS platforms, and automation systems for digital businesses.
     </p>
+    <a href="#services" class="btn">Explore Our Services</a>
+  </div>
 
-    <h2>Our Product</h2>
+  <div class="container section">
+    <h2>Who We Are</h2>
     <p>
-      <strong>TrueCOD</strong> – Smart COD Risk Detection for Shopify.
-      We help merchants identify risky Cash on Delivery orders and reduce fake returns.
+      Ababeel Studio is a technology-focused product and development agency.
+      We design and build scalable Shopify applications, custom SaaS tools,
+      automation systems, and modern web platforms for ambitious businesses.
     </p>
+  </div>
 
+  <div class="container section" id="services">
+    <h2>Our Services</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Shopify App Development</h3>
+        <p>Custom Shopify apps designed for performance, automation, and growth.</p>
+      </div>
+
+      <div class="card">
+        <h3>SaaS Product Development</h3>
+        <p>End-to-end SaaS architecture, dashboards, APIs, and scalable systems.</p>
+      </div>
+
+      <div class="card">
+        <h3>Automation & Integrations</h3>
+        <p>Workflow automation, API integrations, and business process optimization.</p>
+      </div>
+
+      <div class="card">
+        <h3>Web & Platform Development</h3>
+        <p>Modern web platforms, internal tools, and digital infrastructure solutions.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container section">
+    <h2>Our Work</h2>
+    <p>
+      We build intelligent digital products that reduce operational friction,
+      improve decision-making, and unlock scalable growth.
+    </p>
+  </div>
+
+  <div class="container section">
     <h2>Contact</h2>
     <p>Email: info@ababeelstudio.com</p>
     <p>Location: India</p>
-
-    <footer>
-      © 2026 Ababeel Studio. All rights reserved.
-    </footer>
   </div>
+
+  <footer>
+    © 2026 Ababeel Studio. All rights reserved.
+  </footer>
+
 </body>
 </html>
