@@ -14,14 +14,12 @@
       line-height: 1.6;
     }
 
-    /* ---------- HEADER ---------- */
-
     header {
       position: fixed;
       width: 100%;
       top: 0;
       left: 0;
-      background: rgba(11, 17, 32, 0.85);
+      background: rgba(11, 17, 32, 0.9);
       backdrop-filter: blur(10px);
       display: flex;
       justify-content: space-between;
@@ -35,7 +33,6 @@
     .logo {
       font-weight: 600;
       font-size: 20px;
-      letter-spacing: 0.5px;
     }
 
     nav a {
@@ -43,14 +40,11 @@
       text-decoration: none;
       margin-left: 30px;
       font-size: 15px;
-      transition: 0.3s;
     }
 
     nav a:hover {
       color: white;
     }
-
-    /* ---------- HERO ---------- */
 
     .hero {
       height: 100vh;
@@ -90,14 +84,7 @@
       text-decoration: none;
       border-radius: 10px;
       font-weight: 600;
-      transition: 0.3s ease;
     }
-
-    .btn:hover {
-      opacity: 0.85;
-    }
-
-    /* ---------- SECTIONS ---------- */
 
     .section {
       max-width: 1100px;
@@ -119,8 +106,6 @@
       font-size: 18px;
     }
 
-    /* ---------- SERVICES GRID ---------- */
-
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -134,12 +119,6 @@
       padding: 35px;
       border-radius: 16px;
       text-align: left;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-6px);
-      border-color: #6366f1;
     }
 
     .card h3 {
@@ -152,8 +131,6 @@
       color: #94a3b8;
     }
 
-    /* ---------- FOOTER ---------- */
-
     footer {
       text-align: center;
       padding: 50px 20px;
@@ -161,95 +138,79 @@
       font-size: 14px;
       color: #64748b;
     }
-
-    /* ---------- RESPONSIVE ---------- */
-
-    @media (max-width: 768px) {
-      header {
-        padding: 15px 25px;
-      }
-
-      nav a {
-        margin-left: 15px;
-      }
-
-      h1 {
-        font-size: 42px;
-      }
-    }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <div class="logo">Ababeel Studio</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <div class="logo">Ababeel Studio</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <div class="hero">
-    <div class="hero-content">
-      <h1>Building Scalable Digital Products</h1>
-      <p>
-        Shopify apps, SaaS platforms, automation systems, and modern
-        web engineering for ambitious brands.
-      </p>
-      <a href="#services" class="btn">Explore Services</a>
-    </div>
-  </div>
-
-  <div class="section" id="about">
-    <h2>Who We Are</h2>
+<div class="hero">
+  <div class="hero-content">
+    <h1>Building Scalable Digital Products</h1>
     <p>
-      Ababeel Studio is a modern IT & Creative Technology agency
-      focused on building scalable Shopify applications, SaaS tools,
-      automation systems, and digital infrastructure solutions.
+      Shopify apps, SaaS platforms, automation systems,
+      and WhatsApp Business integrations for modern brands.
     </p>
+    <a href="#services" class="btn">Explore Services</a>
   </div>
+</div>
 
-  <div class="section" id="services">
-    <h2>Our Services</h2>
+<div class="section" id="about">
+  <h2>About Ababeel Studio</h2>
+  <p>
+    Ababeel Studio is a registered Sole Proprietorship technology business
+    based in India. We specialize in Shopify application development,
+    SaaS product engineering, automation systems, and business integrations.
+  </p>
+</div>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Shopify App Development</h3>
-        <p>Performance-driven Shopify applications built for automation and scale.</p>
-      </div>
+<div class="section" id="services">
+  <h2>Our Services</h2>
 
-      <div class="card">
-        <h3>SaaS Product Development</h3>
-        <p>End-to-end SaaS systems with dashboards, APIs, and backend architecture.</p>
-      </div>
+  <div class="grid">
+    <div class="card">
+      <h3>Shopify App Development</h3>
+      <p>Custom Shopify applications for automation and operational scale.</p>
+    </div>
 
-      <div class="card">
-        <h3>Automation & Integrations</h3>
-        <p>Workflow automation and intelligent system integrations.</p>
-      </div>
+    <div class="card">
+      <h3>SaaS Product Development</h3>
+      <p>End-to-end SaaS systems with dashboards, APIs, and backend architecture.</p>
+    </div>
 
-      <div class="card">
-        <h3>Web Platform Engineering</h3>
-        <p>Modern web platforms and internal digital infrastructure solutions.</p>
-      </div>
+    <div class="card">
+      <h3>Automation & Integrations</h3>
+      <p>Workflow automation and WhatsApp Business API integrations.</p>
+    </div>
+
+    <div class="card">
+      <h3>Web Platform Engineering</h3>
+      <p>Modern web platforms and digital infrastructure solutions.</p>
     </div>
   </div>
+</div>
 
-  <div class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Email: contact@ababeelstudio.com</p>
-    <p>Location: India</p>
-  </div>
+<div class="section" id="contact">
+  <h2>Contact Information</h2>
+  <p>Email: contact@ababeelstudio.com</p>
+  <p>Phone: +91 8269482653</p>
+  <p>Location: India</p>
+</div>
 
-  <footer>
-    © 2026 Ababeel Studio. All rights reserved.
-    <br><br>
-<a href="privacy.html">Privacy Policy</a> |
-<a href="terms.html">Terms of Service</a>
-  </footer>
-  
+<footer>
+  © 2026 Ababeel Studio. All rights reserved.
+  <br><br>
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms of Service</a>
+</footer>
 
 </body>
 </html>
